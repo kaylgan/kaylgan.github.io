@@ -72,8 +72,7 @@ body .progress_inner__status .box_string, body .progress_inner__status .box_tag,
   position: absolute;
   left: 0;
   right: 0;
-  /* top: 50%; */
-  top: 30%;
+  top: 50%;
   transform: translateY(-50%);
   margin: auto;
 }
@@ -81,8 +80,7 @@ body .progress_inner__status .box_string, body .progress_inner__status .box_tag,
 body .progress_inner__bar--set, body .progress_inner__bar {
   height: 6px;
   left: 10%;
-  /* background: repeating-linear-gradient(45deg, #1ea4ec, #1ea4ec 4px, #1f8bc5 4px, #1f8bc5 10px); */
-  background: repeating-linear-gradient(45deg, #9575cd, #9575cd 4px, #7e57c2 4px, #7e57c2 10px);
+  background: repeating-linear-gradient(45deg, #1ea4ec, #1ea4ec 4px, #1f8bc5 4px, #1f8bc5 10px);
   transition: width 800ms cubic-bezier(0.915, 0.015, 0.3, 1.005);
   border-radius: 6px;
   width: 0;
@@ -93,13 +91,10 @@ body .progress_inner__bar--set, body .progress_inner__bar {
 body .progress_inner__step:before {
   width: 30px;
   height: 30px;
-  /* color: #70afd0; */
-  /* color: #7e57c2; */
-  color: #5e35b1;
+  color: #70afd0;
   background: white;
   line-height: 30px;
-  /* border: 3px solid #a6cde2; */
-  border: 3px solid #b39ddb;
+  border: 3px solid #a6cde2;
   font-size: 12px;
   top: 3px;
   border-radius: 100%;
@@ -129,25 +124,13 @@ body .progress_inner__step:hover {
 }
 body .progress_inner__step:hover:before {
   color: white;
-  /* background: #1ea4ec; */
-  background: #9575cd;
-}
-
-a {
-  color: #7e57c2;
-  /* text-decoration-style: wavy; */
-}
-
-a:hover {
-  color: #9575cd;
+  background: #1ea4ec;
 }
 
 body {
   font-family: "Nunito", sans-serif;
-  /* background: #a6cde2; */
-  background: #b39ddb;
-  /* color: #2e6c8e; */
-  color: #5e35b1;
+  background: #a6cde2;
+  color: #2e6c8e;
   text-align: center;
   font-weight: 900;
 }
@@ -223,8 +206,7 @@ body .progress_inner__step:nth-of-type(5):before {
 body .progress_inner__bar--set {
   width: 80%;
   top: -6px;
-  /* background: #70afd0; */
-  background: #7e57c2;
+  background: #70afd0;
   position: relative;
   z-index: -2;
 }
@@ -333,12 +315,4 @@ body .progress_inner__status .box_string {
 }
 body .progress_inner input[type=radio] {
   display: none;
-}
-
-img {
-  width: 95%;
-}
-
-#pre-hatchling {
-  width: 45%;
 }
